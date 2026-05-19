@@ -205,3 +205,22 @@ input[type="text"] {
   text-align: center;
   margin-top: 20px;
 }
+
+#modalDepartment {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 900;
+  margin-bottom: 14px;
+
+  background: linear-gradient(90deg, #00ffd5, #7c4dff, #ff6b6b);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+
+  text-shadow:
+    0 0 10px rgba(124, 77, 255, 0.35),
+    0 0 20px rgba(0, 255, 213, 0.2);
+}
