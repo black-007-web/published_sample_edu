@@ -112,6 +112,12 @@ const courses = [
 { code: "EEE318", department: "CSE", title: "Electrical Drives & Instrumentation Lab", credit: "1.5", prerequisite: "None" },
 
   //EEE Courses :
+  
+{ code: "MATH101", department: "EEE", title: "MATH-I-Differential Calculus & Integral Calculus", credit: "3", prerequisite: "None" },
+{ code: "MATH103", department: "EEE", title: "MATH-II-Complex Variable & Vector Analysis", credit: "3", prerequisite: "MATH101" },
+{ code: "MATH207", department: "EEE", title: "MATH-III-Matrices, Linear Algebra, & Co-ordinate Geometry", credit: "3", prerequisite: "MATH101" }, 
+{ code: "MATH209", department: "EEE", title: "MATH-IV-Fourier Analysis, Laplace Transform & Differential Equations", credit: "3", prerequisite: "MATH101" },
+{ code: "MATH301", department: "EEE", title: "MATH-V-Probability & Statistics", credit: "3", prerequisite: "MATH101" },
 
 { code: "CSE103", department: "EEE", title: "Computer Programming", credit: "3", prerequisite: "None" },
 { code: "CSE104", department: "EEE", title: "Computer Programming Laboratory", credit: "1.5", prerequisite: "None" },
